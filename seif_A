@@ -1,0 +1,2 @@
+the reason for the size changes is that the orthographicSize is set on start but not updated on each frame and therfore not updated when the phone rotated
+so when the phone rotated the orthographicSize is no longer depend on the current screen height.
